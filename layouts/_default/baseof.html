@@ -12,7 +12,12 @@
       {{ .Title }} &ndash; {{ .Site.Title }}
       {{ end }}
     </title>
-    <link rel="stylesheet" href="{{ "css/base.css" | absURL }}" />
+    {{ $baseStyle := resources.Get "scss/base.scss" | toCSS }}
+    {{ $footerStyle := resources.Get "scss/footer.scss" | toCSS }}
+    <link rel="stylesheet" href="{{ $baseStyle.Permalink }}">
+    <link rel="stylesheet" href="{{ $footerStyle.Permalink }}">
+    {{ block "head" . }}
+    {{ end }}
   </head>
   <body>
     <!-- Code that all your templates share, like a header -->
@@ -20,7 +25,9 @@
     <!-- The part of the page that begins to differ between templates -->
     {{ end }}
     {{ block "footer" . }}
-    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+      <footer>
+        <p>This is a footer</p>
+      </footer>
     {{ end }}
   </body>
 </html>

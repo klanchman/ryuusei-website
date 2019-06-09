@@ -1,0 +1,89 @@
+h1, h3 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 66px);
+}
+
+.logoContainer {
+  flex-basis: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: 350px;
+    width: 350px;
+    border-radius: 24px;
+  }
+}
+
+.textContainer {
+  flex-basis: 60%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 300;
+  }
+
+  h3 {
+    margin-top: 8px;
+
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
+
+.signUp {
+  margin-top: 54px;
+  color: white;
+
+  font-size: 1.5rem;
+  transition: background-color 200ms;
+  cursor: pointer;
+  background-color: #268AFF;
+  border-radius: 16px;
+  padding: 16px;
+
+  &:hover {
+    background-color: #1e6ecc;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .logoContainer {
+    flex-basis: 60%;
+  }
+
+  .textContainer {
+    flex-basis: 40%;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logoContainer {
+    flex-basis: 50%;
+
+    img {
+      height: 250px;
+      width: 250px;
+    }
+  }
+
+  .textContainer {
+    flex-basis: 50%;
+  }
+}

@@ -1,0 +1,11 @@
+{{ $img := resources.Get (.Get "src") }}
+
+{{ with .Get "resize" }}
+  {{ $img = $img.Resize . }}
+{{ end }}
+
+<img
+  src="{{ $img.RelPermalink }}"
+  alt="{{ .Get "alt" }}"
+  {{ with .Get "class" }}class="{{ . }}"{{ end }}
+/>
