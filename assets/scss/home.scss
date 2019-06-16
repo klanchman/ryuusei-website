@@ -1,52 +1,61 @@
-h1, h3 {
+h1, h2, h3, h4 {
   margin: 0;
 }
 
-.container {
+h1 {
+  font-size: 3.25rem;
+  font-weight: 200;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.topContainer {
   display: flex;
-  height: calc(100vh - 66px);
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+
+  // FIXME: Use an image
+  background-color: #323232;
 }
 
 .logoContainer {
-  flex-basis: 40%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   img {
-    height: 350px;
-    width: 350px;
+    height: 150px;
+    width: 150px;
     border-radius: 24px;
   }
 }
 
 .textContainer {
-  flex-basis: 60%;
+  text-align: center;
+  margin-bottom: 16px;
+}
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  h1 {
-    font-size: 4rem;
-    font-weight: 300;
-  }
-
-  h3 {
-    margin-top: 8px;
-
-    font-size: 1.4rem;
-    font-weight: 300;
-  }
+.cta {
+  margin-top: 16px;
 }
 
 .signUp {
-  margin-top: 54px;
-  color: white;
+  display: block;
 
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   transition: background-color 200ms;
   cursor: pointer;
   background-color: #268AFF;
@@ -58,32 +67,6 @@ h1, h3 {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .logoContainer {
-    flex-basis: 60%;
-  }
-
-  .textContainer {
-    flex-basis: 40%;
-    justify-content: flex-start;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .logoContainer {
-    flex-basis: 50%;
-
-    img {
-      height: 250px;
-      width: 250px;
-    }
-  }
-
-  .textContainer {
-    flex-basis: 50%;
-  }
+.featuresContainer {
+  padding: 8px;
 }
