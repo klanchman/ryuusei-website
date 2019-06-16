@@ -24,9 +24,16 @@
     {{ block "main" . }}
     <!-- The part of the page that begins to differ between templates -->
     {{ end }}
+
     {{ block "footer" . }}
+    {{ $privacyPage := .Site.GetPage "/privacy-policy" }}
+    {{ $licensesPage := .Site.GetPage "/licenses" }}
       <footer>
-        <p>This is a footer</p>
+        <p class="links">
+          <a href="{{ $privacyPage.Permalink }}">Privacy Policy</a>
+          <a href="{{ $licensesPage.Permalink }}">Licenses</a>
+        </p>
+        <p class="copyright">© 2019 Kyle Lanchman</p>
       </footer>
     {{ end }}
   </body>

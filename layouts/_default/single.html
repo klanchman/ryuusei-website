@@ -1,7 +1,19 @@
+{{ define "head" }}
+  {{ $style := resources.Get "scss/single.scss" | toCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ end }}
+
 {{ define "main" }}
+  {{ $icon := resources.Get "img/ryuusei-icon.png" }}
+  {{ $icon = $icon.Resize "100x" }}
+  <header>
+      <a href="/">
+        <img src="{{ $icon.Permalink }}" alt="Ryuusei logo" />
+        Ryuusei
+      </a>
+  </header>
   <main>
-    <h1>Single Page</h1>
-    <h2>{{ .Title }}</h2>
+    <h1>{{ .Title }}</h1>
     {{ .Content }}
   </main>
 {{ end }}
