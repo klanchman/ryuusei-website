@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px 16px;
+  background-color: #323232;
+
+  .home-link {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-weight: 300;
+
+    img {
+      height: 50px;
+      width: 50px;
+      margin-right: 8px;
+      border-radius: 10px;
+    }
+  }
+
+  .external-links {
+    a {
+      color: white;
+      transition: color 200ms;
+
+      &:hover {
+        color: #268AFF;
+      }
+    }
+  }
+
+  .twitter-icon {
+    height: 35px;
+    width: 35px;
+    fill: currentColor;
+  }
+}

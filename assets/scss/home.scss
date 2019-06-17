@@ -3,7 +3,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 3.25rem;
+  font-size: 3.5rem;
   font-weight: 200;
   margin-bottom: 8px;
 }
@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 300;
   margin-bottom: 8px;
 }
@@ -27,12 +27,12 @@ h4 {
   flex-direction: column;
   align-items: center;
 
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-bottom: 16px;
 
-  // FIXME: Use an image
-  background-color: #323232;
+  background-image: url('/cosmic-fireball-blur.jpg');
+  background-size: cover;
 }
 
 .logoContainer {

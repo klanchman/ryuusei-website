@@ -4,16 +4,6 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ $icon := resources.Get "img/ryuusei-icon.png" }}
-  {{ $icon = $icon.Resize "100x" }}
-  <header>
-      <a href="/">
-        <img src="{{ $icon.Permalink }}" alt="Ryuusei logo" />
-        Ryuusei
-      </a>
-  </header>
-  <main>
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-  </main>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
 {{ end }}
