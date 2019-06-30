@@ -87,4 +87,15 @@ h4 {
   &:nth-of-type(odd) {
     background-color: #242424;
   }
+
+  @media screen and (min-width: 1394px) {
+    & {
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      .featureDescription {
+        flex-basis: 35%;
+      }
+    }
+  }
 }
