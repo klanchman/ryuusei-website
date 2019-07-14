@@ -51,23 +51,21 @@ h4 {
   margin-top: 16px;
 
   a {
+    display: block;
+
+    font-size: 1.25rem;
     text-decoration: none;
-  }
-}
 
-.signUp {
-  display: block;
+    transition: background-color 200ms;
+    cursor: pointer;
+    background-color: #268AFF;
+    color: white;
+    border-radius: 16px;
+    padding: 16px;
 
-  font-size: 1.25rem;
-  transition: background-color 200ms;
-  cursor: pointer;
-  background-color: #268AFF;
-  color: white;
-  border-radius: 16px;
-  padding: 16px;
-
-  &:hover {
-    background-color: #1e6ecc;
+    &:hover {
+      background-color: #1e6ecc;
+    }
   }
 }
 
