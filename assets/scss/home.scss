@@ -50,23 +50,16 @@ h4 {
 .cta {
   margin-top: 16px;
 
-  a {
-    display: block;
-
-    font-size: 1.25rem;
-    text-decoration: none;
-
-    transition: background-color 200ms;
-    cursor: pointer;
-    background-color: #268AFF;
-    color: white;
-    border-radius: 16px;
-    padding: 16px;
-
-    &:hover {
-      background-color: #1e6ecc;
-    }
+  .appStoreLink img {
+    width: 200px;
   }
+}
+
+.cta.beta {
+  padding: 16px;
+  background-color: rgba($color: #242424, $alpha: 0.75);
+  border-radius: 10px;
+  text-align: center;
 }
 
 .featureBlock {
