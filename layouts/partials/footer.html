@@ -1,7 +1,12 @@
+{{ $helpPage := .Site.GetPage "/help" }}
+{{ $contactPage := .Site.GetPage "/contact" }}
 {{ $privacyPage := .Site.GetPage "/privacy-policy" }}
 {{ $licensesPage := .Site.GetPage "/licenses" }}
+
 <footer>
   <p class="links">
+    <a href="{{ $helpPage.Permalink }}">Help</a>
+    <a href="{{ $contactPage.Permalink }}">Contact</a>
     <a href="{{ $privacyPage.Permalink }}">Privacy Policy</a>
     <a href="{{ $licensesPage.Permalink }}">Licenses</a>
   </p>
