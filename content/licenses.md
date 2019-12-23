@@ -4,19 +4,20 @@ title = "Licenses"
 
 ## iOS Libraries
 
-- <a href="https://github.com/Alamofire/Alamofire" target="_blank">Alamofire</a>
-- <a href="https://github.com/Alamofire/AlamofireImage" target="_blank">AlamofireImage</a>
-- <a href="https://github.com/apollographql/apollo-ios" target="_blank">apollo-ios</a>
-- <a href="https://github.com/xmartlabs/Eureka" target="_blank">Eureka</a>
-- <a href="https://github.com/JonasGessner/JGProgressHUD" target="_blank">JGProgressHUD</a>
-- <a href="https://github.com/auth0/JWTDecode.swift" target="_blank">JWTDecode.swift</a>
-- <a href="https://github.com/soffes/SAMKeychain" target="_blank">SAMKeychain</a>
-- <a href="https://github.com/hyperoslo/Whisper" target="_blank">Whisper</a>
+- [Alamofire](https://github.com/Alamofire/Alamofire)
+- [AlamofireImage](https://github.com/Alamofire/AlamofireImage)
+- [apollo-ios](https://github.com/apollographql/apollo-io)
+- [Eureka](https://github.com/xmartlabs/Eureka)
+- [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
+- [JWTDecode.swift](https://github.com/auth0/JWTDecode.swif)
+- [SAMKeychain](https://github.com/soffes/SAMKeychain)
+- [SwiftyUserDefaults](https://github.com/sunshinejr/SwiftyUserDefaults)
+- [Whisper](https://github.com/hyperoslo/Whisper)
 
 ## iOS and Web Icons
 
-- <a href="https://icons8.com" target="_blank">Icons8</a>
+- [Icons8](https://icons8.com)
 
 ## iOS and Web Images
 
-- <a href="https://commons.wikimedia.org/wiki/File:Cosmic_Fireball_Falling_Over_ALMA.jpg" target="_blank">Cosmic Fireball Falling Over ALMA via Wikimedia Commons</a>
+- [Cosmic Fireball Falling Over ALMA via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cosmic_Fireball_Falling_Over_ALMA.jpg)
