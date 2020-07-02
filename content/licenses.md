@@ -4,15 +4,14 @@ title = "Licenses"
 
 ## iOS Libraries
 
-- [Alamofire](https://github.com/Alamofire/Alamofire)
-- [AlamofireImage](https://github.com/Alamofire/AlamofireImage)
 - [apollo-ios](https://github.com/apollographql/apollo-io)
 - [Eureka](https://github.com/xmartlabs/Eureka)
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swif)
-- [SAMKeychain](https://github.com/soffes/SAMKeychain)
+- [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+- [SDWebImage](https://github.com/SDWebImage/SDWebImage)
+- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages)
 - [SwiftyUserDefaults](https://github.com/sunshinejr/SwiftyUserDefaults)
-- [Whisper](https://github.com/hyperoslo/Whisper)
 
 ## iOS and Web Icons
 
