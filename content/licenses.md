@@ -11,10 +11,11 @@ title = "Licenses"
 - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swift)
 - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
 - [SDWebImage](https://github.com/SDWebImage/SDWebImage)
+- [SFSafeSymbols](https://github.com/piknotech/SFSafeSymbols)
 - [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages)
 - [SwiftyUserDefaults](https://github.com/sunshinejr/SwiftyUserDefaults)
 
-## iOS and Web Icons
+## Web Icons
 
 - [Icons8](https://icons8.com)
 
