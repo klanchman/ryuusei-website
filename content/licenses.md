@@ -10,6 +10,7 @@ title = "Licenses"
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swift)
 - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+- [Resolver](https://github.com/hmlongco/Resolver)
 - [SDWebImage](https://github.com/SDWebImage/SDWebImage)
 - [SFSafeSymbols](https://github.com/piknotech/SFSafeSymbols)
 - [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages)
