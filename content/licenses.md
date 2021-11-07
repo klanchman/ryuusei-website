@@ -10,9 +10,11 @@ title = "Licenses"
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swift)
 - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+- [Pulse](https://github.com/kean/Pulse)
 - [Resolver](https://github.com/hmlongco/Resolver)
 - [SDWebImage](https://github.com/SDWebImage/SDWebImage)
 - [SFSafeSymbols](https://github.com/piknotech/SFSafeSymbols)
+- [Stevia](https://github.com/freshOS/Stevia)
 - [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages)
 - [SwiftyUserDefaults](https://github.com/sunshinejr/SwiftyUserDefaults)
 
