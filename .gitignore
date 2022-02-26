@@ -1,18 +1,20 @@
-# Created by https://www.gitignore.io/api/hugo,macos
-# Edit at https://www.gitignore.io/?templates=hugo,macos
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,macos
 
 ### Hugo ###
-# gitginore template for Hugo projects
-# website: https://gohugo.io
-
-# generated files by hugo
+# Generated files by hugo
 /public/
 /resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-# executable may be added to repository
+# Executable may be added to repository
 hugo.exe
 hugo.darwin
 hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### macOS ###
 # General
@@ -42,4 +44,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/hugo,macos
+# End of https://www.toptal.com/developers/gitignore/api/hugo,macos
