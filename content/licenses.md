@@ -5,7 +5,6 @@ title = "Licenses"
 ## iOS Libraries
 
 - [apollo-ios](https://github.com/apollographql/apollo-ios)
-- [Eureka](https://github.com/xmartlabs/Eureka)
 - [Fuse](https://github.com/krisk/fuse-swift)
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swift)
