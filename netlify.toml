@@ -2,6 +2,10 @@
   from = "/forum-thread"
   to = "https://anilist.co/forum/thread/8228"
 
+[[redirects]]
+  from = "/delete-account"
+  to = "https://anilist.co/settings/account"
+
 [context.production.environment]
-  HUGO_VERSION = "0.92.2"
+  HUGO_VERSION = "0.102.3"
   HUGO_ENV = "production"
