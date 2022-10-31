@@ -5,13 +5,15 @@ title = "Licenses"
 ## iOS Libraries
 
 - [apollo-ios](https://github.com/apollographql/apollo-ios)
+- [Factory](https://github.com/hmlongco/Factory)
 - [Fuse](https://github.com/krisk/fuse-swift)
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swift)
 - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+- [Nimble](https://github.com/Quick/Nimble)
 - [Nuke](https://github.com/kean/Nuke)
 - [Pulse](https://github.com/kean/Pulse)
-- [Resolver](https://github.com/hmlongco/Resolver)
+- [Quick](https://github.com/Quick/Quick)
 - [SFSafeSymbols](https://github.com/piknotech/SFSafeSymbols)
 - [Stevia](https://github.com/freshOS/Stevia)
 - [swift-log-oslog](https://github.com/chrisaljoudi/swift-log-oslog)
