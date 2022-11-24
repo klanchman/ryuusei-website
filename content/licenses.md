@@ -14,6 +14,7 @@ title = "Licenses"
 - [Nuke](https://github.com/kean/Nuke)
 - [Pulse](https://github.com/kean/Pulse)
 - [Quick](https://github.com/Quick/Quick)
+- [Sentry](https://github.com/getsentry/sentry-cocoa)
 - [SFSafeSymbols](https://github.com/piknotech/SFSafeSymbols)
 - [Stevia](https://github.com/freshOS/Stevia)
 - [swift-log-oslog](https://github.com/chrisaljoudi/swift-log-oslog)
