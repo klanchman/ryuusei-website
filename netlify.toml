@@ -6,6 +6,12 @@
   from = "/delete-account"
   to = "https://anilist.co/settings/account"
 
+[build]
+command = "hugo --gc --minify --baseURL $URL"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture --baseURL $DEPLOY_PRIME_URL"
+
 [context.production.environment]
   HUGO_VERSION = "0.102.3"
   HUGO_ENV = "production"
