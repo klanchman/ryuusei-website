@@ -22,21 +22,4 @@ header {
       border-radius: 10px;
     }
   }
-
-  .external-links {
-    a {
-      color: white;
-      transition: color 200ms;
-
-      &:hover {
-        color: #268AFF;
-      }
-    }
-  }
-
-  .twitter-icon {
-    height: 35px;
-    width: 35px;
-    fill: currentColor;
-  }
 }
