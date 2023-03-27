@@ -1,5 +1,6 @@
 {{ $helpPage := .Site.GetPage "/help" }}
 {{ $contactPage := .Site.GetPage "/contact" }}
+{{ $releaseNotesPage := .Site.GetPage "/release-notes" }}
 {{ $privacyPage := .Site.GetPage "/privacy-policy" }}
 {{ $licensesPage := .Site.GetPage "/licenses" }}
 
@@ -7,6 +8,8 @@
   <p class="links">
     <a href="{{ $helpPage.Permalink }}">Help</a>
     <a href="{{ $contactPage.Permalink }}">Contact</a>
+    <a href="{{ $releaseNotesPage.Permalink }}">Release Notes</a>
+    <br><br>
     <a href="{{ $privacyPage.Permalink }}">Privacy Policy</a>
     <a href="{{ $licensesPage.Permalink }}">Licenses</a>
   </p>
