@@ -4,7 +4,9 @@ title = "Licenses"
 
 ## iOS Libraries
 
+- [Alamofire](https://github.com/Alamofire/Alamofire)
 - [apollo-ios](https://github.com/apollographql/apollo-ios)
+- [CodableWrappers](https://github.com/GottaGetSwifty/CodableWrappers)
 - [Factory](https://github.com/hmlongco/Factory)
 - [Fuse](https://github.com/krisk/fuse-swift)
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
