@@ -13,5 +13,5 @@ command = "hugo --gc --minify --baseURL $URL"
 command = "hugo --gc --minify --buildFuture --baseURL $DEPLOY_PRIME_URL"
 
 [context.production.environment]
-  HUGO_VERSION = "0.102.3"
+  HUGO_VERSION = "0.115.0"
   HUGO_ENV = "production"
