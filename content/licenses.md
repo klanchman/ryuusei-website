@@ -6,6 +6,7 @@ title = "Licenses"
 
 - [Alamofire](https://github.com/Alamofire/Alamofire)
 - [apollo-ios](https://github.com/apollographql/apollo-ios)
+- [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
 - [CodableWrappers](https://github.com/GottaGetSwifty/CodableWrappers)
 - [Factory](https://github.com/hmlongco/Factory)
 - [Fuse](https://github.com/krisk/fuse-swift)
@@ -13,7 +14,6 @@ title = "Licenses"
 - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swift)
 - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
 - [Nuke](https://github.com/kean/Nuke)
-- [Pulse](https://github.com/kean/Pulse)
 - [Sentry](https://github.com/getsentry/sentry-cocoa)
 - [SFSafeSymbols](https://github.com/piknotech/SFSafeSymbols)
 - [Stevia](https://github.com/freshOS/Stevia)
@@ -33,10 +33,11 @@ These libraries heavily inspired some code in the app:
 
 - [Markdownosaur](https://github.com/christianselig/Markdownosaur)
 
-These projects were a big help:
+I also use these tools in the process of developing the app:
 
 - [fastlane](http://fastlane.tools)
 - [Nimble](https://github.com/Quick/Nimble)
+- [Pulse](https://github.com/kean/Pulse)
 - [Quick](https://github.com/Quick/Quick)
 - [swift-format](https://github.com/apple/swift-format)
 - [SwiftGen](https://github.com/SwiftGen/SwiftGen)
