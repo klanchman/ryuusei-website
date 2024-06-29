@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url={{ .Params.destination }}" />
+    <link rel="canonical" href="{{ .Params.destination }}" />
+    <script type="text/javascript">
+      window.location.href = '{{ .Params.destination }}';
+    </script>
+    <title>Redirecting</title>
+  </head>
+  <body>
+    If you are not redirected automatically, follow
+    <a href="{{ .Params.destination }}">this link</a>.
+  </body>
+</html>
