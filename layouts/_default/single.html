@@ -5,5 +5,8 @@
 
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+  {{ if .Param "toc" }}
+    {{ .TableOfContents }}
+  {{ end }}
   {{ .Content }}
 {{ end }}
