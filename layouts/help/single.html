@@ -4,6 +4,12 @@
 {{ end }}
 
 {{ define "main" }}
+  {{ range last 1 .Ancestors.Reverse }}
+    <a href="{{ .RelPermalink }}">← {{ .LinkTitle }}</a>
+  {{ end }}
   <h1>{{ .Title }}</h1>
+  {{ if .Param "toc" }}
+    {{ .TableOfContents }}
+  {{ end }}
   {{ .Content }}
 {{ end }}
