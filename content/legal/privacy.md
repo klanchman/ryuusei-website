@@ -2,13 +2,20 @@
 title = "Privacy Policy"
 +++
 
-**Last Updated:** June 28, 2024
+**Last Updated:** October 7, 2024
 
 ## The iOS App ("the App")
 
 ### Data Usage
 
 Except as explained below, the App only sends data to AniList.co and my servers, and only in order to provide its functionality.
+
+#### In-App Purchase Data
+
+If you purchase a Stargazer subscription, data related to that in-app purchase is sent to my servers.
+This data includes things like a transaction ID, transaction status, renewal preferences, etc.
+In-app purchase data is used to provide Stargazer features on your devices.
+This data is not linked to your identity or AniList.co account.
 
 #### Diagnostic Data
 
