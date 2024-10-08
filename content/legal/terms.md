@@ -2,7 +2,7 @@
 title = "Terms of Use"
 +++
 
-**Last Updated:** June 28, 2024
+**Last Updated:** October 7, 2024
 
 Use of the Ryuusei iOS app ("the App") is subject to [Apple's Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) and the following additional terms.
 
