@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 rm -rf public
-hugo --gc --minify
+mise x -- hugo --gc --minify
 
 set markup ""
 
