@@ -45,6 +45,8 @@ h4 {
 .textContainer {
   text-align: center;
   margin-bottom: 16px;
+
+  color: var(--light-text);
 }
 
 .cta {
@@ -57,7 +59,8 @@ h4 {
 
 .cta.beta {
   padding: 16px;
-  background-color: rgba($color: #242424, $alpha: 0.75);
+  background-color: var(--secondary-background-overlay);
+
   border-radius: 10px;
   text-align: center;
 }
@@ -84,7 +87,7 @@ h4 {
   }
 
   &:nth-of-type(odd) {
-    background-color: #242424;
+    background-color: var(--secondary-background);
   }
 
   @media screen and (min-width: 1394px) {

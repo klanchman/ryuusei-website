@@ -1,3 +1,15 @@
+:root {
+  --primary-background: #FFF;
+  --secondary-background: #EEE;
+  --secondary-background-overlay: rgb(238 238 238 / 0.75);
+  --tertiary-background: #DDD;
+
+  --primary-text: #000;
+  --secondary-text: gray;
+  --light-text: #FFF;
+  --link-color: #268AFF;
+}
+
 body {
   margin: 0;
 
@@ -6,10 +18,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
 
-  background-color: #1B1B1B;
-  color: white;
+  background-color: var(--primary-background);
+  color: var(--primary-text);
 }
 
 a {
-  color: #268AFF;
+  color: var(--link-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-background: #1B1B1B;
+    --primary-text: #FFF;
+    --secondary-background: #242424;
+    --secondary-background-overlay: rgb(36 36 36 / 0.75);
+    --tertiary-background: #323232;
+  }
 }
