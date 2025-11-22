@@ -2,7 +2,7 @@
 title = "Privacy Policy"
 +++
 
-**Last Updated:** October 7, 2024
+**Last Updated:** November 22, 2025
 
 ## The iOS App ("the App")
 
@@ -29,6 +29,36 @@ and how long screens take to load.
 #### Contacting Support
 
 When you contact me for support, I may receive information that allows me to locate your diagnostic and in-app purchase data in order to assist you.
+
+#### Usage Data
+
+The App sends usage data to [TelemetryDeck](https://telemetrydeck.com), a privacy-friendly analytics service. This usage
+data helps me understand things like: which features of the app are used the most, which operating system and app versions
+most people are using, and how I can improve the experience of using the app.
+
+Usage data is not tied to your AniList.co user account or any other persistent identifier.
+
+{{< collapse title="Technical details" >}}
+##### What data is transferred?
+
+The data processed by TelemetryDeck is anonymized and does not allow any conclusions to be drawn about personal information.
+
+The following data is collected, among other things:
+
+- an anonymized, untraceable user ID (per app installation),
+- actions defined by me (e.g., "app launched," "Stargazer upgrade screen shown"),
+- a rounded timestamp (to the nearest hour),
+- device metadata (e.g., system version, app version, device type).
+- additional metadata defined by me (e.g., "why was the Stargazer upgrade screen shown?").
+
+##### What is not stored?
+
+- No IP addresses (not in logs, not in the database),
+- no cookies or tracking technologies,
+- no persistent identifiers that could be traced back to individuals (e.g. AniList.co user id / username).
+
+Further information on TelemetryDeck privacy practices can be found at https://telemetrydeck.com/privacy and https://telemetrydeck.com/docs/guides/privacy-faq/.
+{{< /collapse >}}
 
 ### Your Account
 
