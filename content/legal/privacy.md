@@ -2,7 +2,7 @@
 title = "Privacy Policy"
 +++
 
-**Last Updated:** November 22, 2025
+**Last Updated:** December 19, 2025
 
 ## The iOS App ("the App")
 
