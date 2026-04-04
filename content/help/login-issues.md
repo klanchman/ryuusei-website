@@ -31,3 +31,12 @@ you can try temporarily disabling verification emails:
 - Turn off the "Login Location Security" option
 - Try to log into Ryuusei again
 - After logging into Ryuusei, I recommend turning "Login Location Security" back on again
+
+## Cannot Log in with Another Account
+
+If you've logged in with one account earlier, then log out of Ryuusei, then log in again, you may not be asked for
+a username and password. Normally that's nice, unless you are trying to switch to a different account than you
+used earlier.
+
+If you are in this situation, long-press the "Log In" button in Ryuusei, then choose the "Fresh Login" option.
+This option will always ask for a username and password, allowing you to switch to another account.
