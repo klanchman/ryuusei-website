@@ -9,7 +9,7 @@ title = "Licenses"
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
 - [CodableWrappers](https://github.com/GottaGetSwifty/CodableWrappers)
 - [Factory](https://github.com/hmlongco/Factory)
-- [Fuse](https://github.com/krisk/fuse-swift)
+- [FuzzyMatch](https://github.com/ordo-one/FuzzyMatch)
 - [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 - [JWTDecode.swift](https://github.com/auth0/JWTDecode.swift)
 - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
