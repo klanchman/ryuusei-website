@@ -8,6 +8,7 @@ title = "Why am I seeing \"Request Blocked\" errors?"
 - Less likely: your IP address has been blocked by AniList
 
 If you see a "Request Blocked" error in Ryuusei, you can do the following:
+- Log into your AniList account in Ryuusei if you haven't already. Sometimes AniList blocks logged out users when they are experiencing heavy load.
 - Visit [AniList.co](https://anilist.co) in your web browser to see if it loads
 - Check the [Ryuusei status page](https://status.ryuusei.moe) for known problems
 - Check the #announcements channel in [AniList's official Discord](https://discord.com/invite/anilist) for known problems
