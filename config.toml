@@ -1,11 +1,12 @@
 baseURL = "https://ryuusei.moe/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Ryuusei"
+disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "An unofficial AniList client for iOS"
-  logo = "android-chrome-512x512.png"
+  logo = "web-app-manifest-512x512.png"
+  images = ["web-app-manifest-512x512.png"]
 
-[author]
-  name = "Kyle Lanchman"
-  twitter = "klanchman"
+  [params.author]
+    name = "Kyle Lanchman"

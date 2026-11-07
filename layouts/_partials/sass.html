@@ -1,0 +1,2 @@
+{{- $opts := dict "transpiler" "dartsass" -}}
+{{- return (resources.Get . | css.Sass $opts) -}}
