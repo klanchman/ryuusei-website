@@ -28,9 +28,9 @@
 
     {{- partial "seo/main.html" . }}
 
-    {{ $baseStyle := resources.Get "scss/base.scss" | toCSS }}
-    {{ $headerStyle := resources.Get "scss/header.scss" | toCSS }}
-    {{ $footerStyle := resources.Get "scss/footer.scss" | toCSS }}
+    {{ $baseStyle := partial "sass.html" "scss/base.scss" }}
+    {{ $headerStyle := partial "sass.html" "scss/header.scss" }}
+    {{ $footerStyle := partial "sass.html" "scss/footer.scss" }}
     <link rel="stylesheet" href="{{ $baseStyle.Permalink }}">
     <link rel="stylesheet" href="{{ $headerStyle.Permalink }}">
     <link rel="stylesheet" href="{{ $footerStyle.Permalink }}">

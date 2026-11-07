@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "head" }}
-  {{ $style := resources.Get "scss/home.scss" | toCSS }}
+  {{ $style := partial "sass.html" "scss/home.scss" }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 {{ end }}
 
