@@ -1,11 +1,1 @@
-{{ $img := resources.Get (.Get "src") }}
-
-{{ with .Get "resize" }}
-  {{ $img = $img.Resize . }}
-{{ end }}
-
-<img
-  src="{{ $img.RelPermalink }}"
-  alt="{{ .Get "alt" }}"
-  {{ with .Get "class" }}class="{{ . }}"{{ end }}
-/>
+{{- partial "img.html" (dict "src" (.Get "src") "alt" (.Get "alt") "resize" (.Get "resize") "class" (.Get "class")) -}}

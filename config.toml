@@ -10,8 +10,3 @@ disableKinds = ["taxonomy", "term"]
 
   [params.author]
     name = "Kyle Lanchman"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
