@@ -1,12 +1,13 @@
 +++
 title = "Ryuusei"
+description = "Ryuusei is a fast, detailed iOS app for AniList"
 +++
 
 <div class="topContainer">
   <div class="textContainer">
     <h1>Ryuusei</h1>
     <h3>流星</h3>
-    <h4>An unofficial AniList client for iOS</h3>
+    <h4>A fast, detailed iOS app for AniList</h3>
   </div>
 
   <div class="logoContainer">
@@ -15,7 +16,7 @@ title = "Ryuusei"
 
   <div class="cta">
     <a class="appStoreLink" href="https://apps.apple.com/us/app/ryuusei/id1347721581?mt=8">
-      <img src="/ios-app-store-en-092917.svg" />
+      <img src="/ios-app-store-en-092917.svg" alt="Download on the App Store" />
     </a>
   </div>
 </div>

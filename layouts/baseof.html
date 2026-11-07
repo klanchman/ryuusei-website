@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,6 +21,10 @@
     <link rel="manifest" href="/site.webmanifest" />
 
     <link rel="alternate" href="{{ "release-notes/index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }} Release Notes">
+
+    {{- with .OutputFormats.Canonical }}
+      <link rel="canonical" href="{{ .Permalink }}">
+    {{- end }}
 
     {{- partial "seo/main.html" . }}
 

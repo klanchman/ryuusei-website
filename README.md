@@ -4,11 +4,12 @@ The website for [Ryuusei](https://ryuusei.moe)
 
 ## Dependencies
 
-- [Hugo](https://gohugo.io)
+- [Hugo](https://gohugo.io) (managed with [mise](https://mise.jdx.dev))
 
 ## Run Locally
 
 ```
+mise install
 hugo server
 ```
 
