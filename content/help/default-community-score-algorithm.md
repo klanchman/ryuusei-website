@@ -1,5 +1,6 @@
 +++
 title = "Default Community Score Algorithm"
+description = "How to choose the average or mean community score algorithm that Ryuusei shows for anime and manga."
 +++
 
 Ryuusei allows you to set your default community score algorithm.

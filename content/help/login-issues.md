@@ -1,5 +1,6 @@
 +++
 title = "Login Issues"
+description = "Fix AniList login problems in Ryuusei, including Captcha failures, verification emails, and switching accounts."
 +++
 
 This page catalogs some issues that can happen when trying to log in, and ways to try fixing them.

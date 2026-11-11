@@ -1,5 +1,5 @@
 {{ define "title" }}
-  {{ .Site.Title }}
+  {{ .Title }}
 {{ end }}
 
 {{ define "head" }}
@@ -11,8 +11,8 @@
 <div class="topContainer">
   <div class="textContainer">
     <h1>Ryuusei</h1>
-    <h3>流星</h3>
-    <h4>A fast, detailed iOS app for AniList</h4>
+    <p class="japaneseName">流星</p>
+    <h2 class="tagline">A fast, detailed app for AniList on iPhone and iPad</h2>
   </div>
 
   <div class="logoContainer">
@@ -24,6 +24,16 @@
       <img src="/ios-app-store-en-092917.svg" alt="Download on the App Store" />
     </a>
   </div>
+</div>
+
+<div class="introContainer">
+  <p>
+    Ryuusei is a fast, detailed app for AniList on iPhone and iPad.
+    Track the anime and manga you’re watching and reading, get notified when
+    new episodes air, and explore detailed pages with cast, staff, characters,
+    related media, recommendations, tags, and even opening and ending songs
+    (with Stargazer membership).
+  </p>
 </div>
 
 <div class="featuresContainer">

@@ -1,0 +1,60 @@
+{{- if .IsHome -}}
+{{- $appStoreURL := "https://apps.apple.com/us/app/ryuusei/id1347721581?mt=8" -}}
+{{- $description := .Description | default .Site.Params.description -}}
+
+{{- $screenshots := slice -}}
+{{- range (slice "img/screenshots/01-1 Dashboard.png" "img/screenshots/99-1 Widgets.jpeg" "img/screenshots/02-1 List.jpeg" "img/screenshots/03-1 Discover.jpeg" "img/screenshots/04-1 Anime Detail.png") -}}
+  {{- with resources.Get . -}}
+    {{- $screenshots = $screenshots | append (.Resize "x1000").Permalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $website := dict
+  "@type" "WebSite"
+  "name" "Ryuusei"
+  "alternateName" (slice "Ryuusei for AniList" "流星")
+  "url" .Site.BaseURL
+  "description" .Site.Params.description
+  "inLanguage" "en"
+-}}
+
+{{- $application := dict
+  "@type" "MobileApplication"
+  "name" "Ryuusei"
+  "alternateName" (slice "Ryuusei for AniList" "流星")
+  "description" $description
+  "applicationCategory" "Utility, Entertainment"
+  "applicationSubCategory" "Anime and Manga Tracker"
+  "operatingSystem" "iOS"
+  "downloadUrl" $appStoreURL
+  "installUrl" $appStoreURL
+  "isAccessibleForFree" true
+  "inLanguage" "en"
+  "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD")
+  "author" (dict "@type" "Person" "name" .Site.Params.author.name)
+  "publisher" (dict "@type" "Organization" "name" "Ryuusei")
+  "aggregateRating" (dict
+    "@type" "AggregateRating"
+    "ratingValue" "4.8"
+    "ratingCount" "441"
+    "bestRating" "5"
+    "worstRating" "1"
+  )
+  "featureList" (slice
+    "Syncs with AniList"
+    "Track anime and manga progress and scores"
+    "Home Screen widgets for airing anime"
+    "Notifications for new episodes"
+    "Detailed media, cast, staff, and character pages"
+    "Opening and ending song details"
+    "Seasonal discovery and advanced search"
+    "Profile statistics"
+  )
+  "screenshot" $screenshots
+  "sameAs" (slice $appStoreURL "https://anilist.co/forum/thread/8228")
+-}}
+
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" (slice $website $application) | jsonify | safeJS }}
+</script>
+{{- end -}}
