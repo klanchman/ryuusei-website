@@ -1,5 +1,6 @@
 +++
 title = "My stats (like time watched) are not updating"
+description = "Why AniList profile stats such as time watched can be outdated, and how to trigger a stats update."
 +++
 
 The stats on your profile, like total time watched, are calculated by AniList.co every 24~48 hours.

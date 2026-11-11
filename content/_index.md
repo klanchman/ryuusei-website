@@ -1,4 +1,4 @@
 +++
-title = "Ryuusei"
-description = "Ryuusei is a fast, detailed iOS app for AniList"
+title = "Ryuusei for AniList"
+description = "Ryuusei is a fast, detailed app for AniList on iPhone and iPad. Track anime and manga, update your lists, get airing notifications and widgets, and browse rich media details."
 +++

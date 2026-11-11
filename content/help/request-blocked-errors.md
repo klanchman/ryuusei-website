@@ -1,5 +1,6 @@
 +++
 title = "Why am I seeing \"Request Blocked\" errors?"
+description = "What to do when Ryuusei shows a Request Blocked error from AniList."
 +++
 
 "Request Blocked" errors can happen for a couple of reasons:

@@ -1,4 +1,7 @@
 <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 <meta name="author" content="{{ .Site.Params.author.name }}">
-{{- partial "opengraph.html" . }}
-{{- partial "twitter_cards.html" . }}
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="apple-itunes-app" content="app-id=1347721581">
+{{ partial "opengraph.html" . }}
+{{ partial "twitter_cards.html" . }}
+{{ partial "seo/jsonld.html" . }}

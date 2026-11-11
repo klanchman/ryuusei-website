@@ -1,5 +1,6 @@
 +++
 title = "Deleting Your AniList Account"
+description = "How to find and use the AniList account deletion page when you use Ryuusei."
 +++
 
 Visit [https://anilist.co/settings/account](https://anilist.co/settings/account) to delete your AniList account.

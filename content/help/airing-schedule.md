@@ -1,5 +1,6 @@
 +++
 title = "Airing Schedule Widgets and Notifications"
+description = "How Ryuusei's airing schedule widgets and notifications decide which upcoming anime episodes to show."
 +++
 
 Ryuusei has widgets to show upcoming episodes of anime on your list, and can send notifications when they air.

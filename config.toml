@@ -1,10 +1,10 @@
 baseURL = "https://ryuusei.moe/"
 locale = "en-us"
-title = "Ryuusei"
+title = "Ryuusei for AniList"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "An unofficial AniList client for iOS"
+  description = "Ryuusei is a fast, detailed app for AniList on iPhone and iPad."
   logo = "web-app-manifest-512x512.png"
   images = ["web-app-manifest-512x512.png"]
 

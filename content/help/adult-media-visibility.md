@@ -1,5 +1,6 @@
 +++
 title = "Adult Media Visibility"
+description = "How AniList account settings and regional age verification affect which adult media appears in Ryuusei."
 +++
 
 Some media on AniList is tagged as "adult." Media like hentai/pornography and certain ecchi/erotica falls into this category. (Cover art on AniList is censored, but you may still wish to avoid seeing such media.)

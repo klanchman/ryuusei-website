@@ -1,5 +1,6 @@
 +++
 title = "Stargazer Help & FAQ"
+description = "What Ryuusei's optional Stargazer subscription includes, why it exists, and which features remain free."
 [params]
   toc = true
 +++

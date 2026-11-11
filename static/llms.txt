@@ -1,0 +1,34 @@
+# Ryuusei
+
+> Ryuusei (流星) is a fast, detailed app for AniList on iPhone and iPad. It is free to download.
+
+Ryuusei syncs with AniList and lets you track the anime and manga you are watching and reading.
+Features include a dashboard for quick progress and score updates, Home Screen widgets showing when anime air next,
+system notifications for new episodes, an advanced list entry editor,
+detailed media pages with cast, staff, characters, relations, recommendations, tags, and opening/ending songs (for Stargazer members),
+seasonal discovery, advanced search, and profile statistics.
+
+Stargazer is an optional subscription that adds extra features and supports development.
+
+## Key facts
+
+- Platform: iOS (iPhone and iPad)
+- Price: Free to download; optional Stargazer subscription
+- App Store rating: 4.8 / 5
+- Data source: AniList (https://anilist.co)
+- Affiliation: Not affiliated with AniList
+- Developer: Kyle Lanchman
+
+## Pages
+
+- [Home](https://ryuusei.moe/): Overview, features, and App Store download link
+- [Help](https://ryuusei.moe/help/): Setup and troubleshooting, including login issues, airing widgets, stats, and adult media visibility
+- [Stargazer Help & FAQ](https://ryuusei.moe/help/stargazer/): What the Stargazer subscription includes
+- [Release Notes](https://ryuusei.moe/release-notes/): Version history
+- [Contact](https://ryuusei.moe/contact/): How to report bugs or suggest features
+- [Legal](https://ryuusei.moe/legal/): Terms, privacy, and licenses
+
+## Elsewhere
+
+- [App Store](https://apps.apple.com/us/app/ryuusei/id1347721581?mt=8)
+- [AniList forum thread](https://anilist.co/forum/thread/8228)
